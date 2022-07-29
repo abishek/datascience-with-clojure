@@ -141,8 +141,8 @@
  [:tbody
   [:tr
    [:td :accuracy]
-   [:td (:metric (:test-transform (first (first eval-results))))]
-   [:td (:metric (:train-transform (first (first eval-results))))]]]]
+   [:td (:metric (:train-transform (first (first eval-results))))]
+   [:td (:metric (:test-transform (first (first eval-results))))]]]]
 
 ;; Now, now. That's not bad at all! Let's try to run the fit, predict and measure functions independantly.
 ;;
